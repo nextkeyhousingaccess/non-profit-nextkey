@@ -4,7 +4,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { Heart, Home, Users, GraduationCap, Shield } from "lucide-react";
+import { Heart, Home, Users, GraduationCap, Shield, BookOpen } from "lucide-react";
 import { siteContent } from "@/lib/content";
 import { hero } from "@/app/content/site";
 import { HowItWorks } from "@/components/HowItWorks";
@@ -140,7 +140,7 @@ export default function HomePage() {
             </p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <Card className="hover:shadow-lg transition-shadow duration-300">
               <CardContent className="p-6 text-center">
                 <Home className="h-12 w-12 text-nextkey-purple mx-auto mb-4" />
@@ -167,6 +167,27 @@ export default function HomePage() {
                 </p>
                 <Button asChild className="w-full bg-nextkey-purple hover:bg-purple-800 text-white rounded-lg">
                   <a href="/resources">Learn More</a>
+                </Button>
+              </CardContent>
+            </Card>
+
+            <Card className="hover:shadow-lg transition-shadow duration-300">
+              <CardContent className="p-6 text-center">
+                <BookOpen className="h-12 w-12 text-nextkey-purple mx-auto mb-4" />
+                <h3 className="text-xl font-semibold text-nextkey-purple mb-3">
+                  NextKey Academy
+                </h3>
+                <p className="text-gray-700 mb-4">
+                  Build housing knowledge through guided lessons, real-life scenarios, resources, assessments, and track completion.
+                </p>
+                <Button asChild className="w-full bg-nextkey-purple hover:bg-purple-800 text-white rounded-lg">
+                  <a
+                    href="https://housing-education-hub.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Open NextKey Academy
+                  </a>
                 </Button>
               </CardContent>
             </Card>
