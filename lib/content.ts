@@ -12,7 +12,7 @@ export const siteContent = {
 
   // Contact Information
   contact: {
-    email: "nextkeyfoundation@gmail.com",
+    email: "info@nextkeyhousingacess.org",
     social: {
       instagram: "@nextkeyhousing",
       instagramUrl: "https://instagram.com/nextkeyhousing",
@@ -22,7 +22,7 @@ export const siteContent = {
       saturday: "10:00 AM - 2:00 PM",
       sunday: "Closed",
     },
-    emergencyNote: "Emergency assistance available 24/7 through our hotline",
+    emergencyNote: "For immediate housing emergencies in NYC, call 311 to find the appropriate city service.",
   },
 
   // External Links
@@ -49,7 +49,7 @@ export const siteContent = {
     },
     {
       question: "Do you provide housing placements?",
-      answer: "Not directly. Our nonprofit supports housing access through education, outreach, partnerships, and tech advocacy. Placements are supported by our separate placement company, NextKey Global Solutions.",
+      answer: "The Foundation offers education and resources, not real estate brokerage or guaranteed placements. Real estate representation is separate and handled by Brittany Walford through Keller Williams Realty Landmark.",
     },
     {
       question: "Can I volunteer or donate?",
@@ -57,7 +57,7 @@ export const siteContent = {
     },
     {
       question: "Are donations tax-deductible?",
-      answer: "Our 501(c)(3) status is pending. Once approved, all donations will be tax-deductible retroactively.",
+      answer: "The Foundation has received its IRS 501(c)(3) determination. Keep your donation receipt and consult your tax adviser about your specific deduction.",
     },
   ],
 
@@ -187,7 +187,7 @@ export const siteContent = {
       },
       impact: {
         title: "Built for Impact. Designed to Scale.",
-        subtitle: "NextKey uses smart housing tools to streamline the rental process, reduce discrimination, and empower underserved communities with equitable access to housing.",
+        subtitle: "We use housing education and practical tools to help New Yorkers understand housing processes, their options, and where to find support.",
       },
       cta: {
         title: "Ready to Make a Difference?",
@@ -226,8 +226,8 @@ export const siteContent = {
 
   // Legal Information
   legal: {
-    status: "NextKey Housing Access Foundation Inc. is a nonprofit organization based in New York, incorporated in 2025. We are currently in the process of applying for federal 501(c)(3) tax-exempt status.",
-    donations: "Donations are being accepted to support our mission but may not be tax-deductible until IRS approval is confirmed. EIN and legal documents available upon request.",
+    status: "NextKey Housing Access Foundation Inc. is a New York nonprofit recognized by the IRS as a 501(c)(3) tax-exempt organization. EIN: 33-4852690.",
+    donations: "Donations support the Foundation's charitable mission. Keep your receipt and consult your tax adviser about your specific deduction.",
   },
 } as const;
 
@@ -238,4 +238,3 @@ export type FAQItem = typeof siteContent.faq[0];
 export type Program = typeof siteContent.programs[0];
 export type Event = typeof siteContent.events.upcoming[0];
 export type PastEvent = typeof siteContent.events.past[0];
-
