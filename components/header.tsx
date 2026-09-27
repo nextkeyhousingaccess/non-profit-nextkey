@@ -30,9 +30,7 @@ export function Header() {
           <div className="hidden md:flex items-center space-x-4">
             <DropdownMenu />
             <a
-              href={siteContent.links.gofundme}
-              target="_blank"
-              rel="noopener noreferrer"
+              href="/donate"
             >
               <Button className="bg-nextkey-purple hover:bg-purple-800 text-white rounded-xl">
                 {siteContent.cta.donate}
@@ -44,9 +42,7 @@ export function Header() {
           <div className="md:hidden flex items-center space-x-2">
             <MobileDropdownMenu />
             <a
-              href={siteContent.links.gofundme}
-              target="_blank"
-              rel="noopener noreferrer"
+              href="/donate"
             >
               <Button size="sm" className="bg-nextkey-purple hover:bg-purple-800 text-white rounded-xl">
                 Donate
