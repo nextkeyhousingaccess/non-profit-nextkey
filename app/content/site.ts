@@ -17,7 +17,7 @@ export const nav = {
 };
 
 export const hero = {
-  title: "Unlock Hope. Unlock Home.",
+  title: "Unlocking Access. Restoring Dignity.",
   description:
     "NextKey Housing Access Foundation is a Black-founded nonprofit helping New Yorkers understand and navigate housing systems. We offer housing education, community workshops, and resources for people facing barriers to housing. Everyone is welcome. We are a tax-exempt 501(c)(3) public charity.",
   ctas: [

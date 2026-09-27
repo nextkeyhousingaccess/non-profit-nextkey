@@ -99,7 +99,7 @@ export default function AboutPage() {
         <div className="text-center">
           <h2 className="text-3xl font-bold text-nextkey-purple mb-6">Get Involved</h2>
           <p className="text-lg text-gray-700 mb-8 max-w-2xl mx-auto">
-            Join us in our mission to unlock hope and unlock home for families in need.
+            Join us in making housing information easier to access and navigate with dignity.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button 

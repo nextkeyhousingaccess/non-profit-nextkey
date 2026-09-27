@@ -2,7 +2,7 @@ export const siteContent = {
   // Organization Information
   organization: {
     name: "NextKey Housing Access Foundation",
-    tagline: "Unlock Hope, Unlock Home",
+    tagline: "Unlocking Access. Restoring Dignity.",
     mission: "Equity. Access. Impact.",
     description: "NextKey Housing Access Foundation is a Black-founded nonprofit dedicated to breaking down barriers to housing access. We combine community support, technology, and advocacy to ensure every family has the resources and dignity they need to find and maintain stable housing.",
     ein: "33-4852690",
@@ -184,16 +184,16 @@ export const siteContent = {
   pages: {
     home: {
       hero: {
-        title: "Unlock Hope, Unlock Home",
+        title: "Unlocking Access. Restoring Dignity.",
         subtitle: "NextKey Housing Access Foundation is a Black-founded nonprofit dedicated to breaking down barriers to housing access. We combine community support, technology, and advocacy to ensure every family has the resources and dignity they need to find and maintain stable housing.",
       },
       impact: {
-        title: "Built for Impact. Designed to Scale.",
+        title: "Housing Knowledge, Shared with Dignity",
         subtitle: "We use housing education and practical tools to help New Yorkers understand housing processes, their options, and where to find support.",
       },
       cta: {
         title: "Ready to Make a Difference?",
-        subtitle: "Join us in our mission to unlock hope and unlock home for families in need.",
+        subtitle: "Help us make housing education and practical resources easier to access across New York City.",
       },
     },
     programs: {
@@ -206,7 +206,7 @@ export const siteContent = {
     },
     getInvolved: {
       title: "Get Involved",
-      subtitle: "There are many ways to support our mission and make a difference in your community. Join us in unlocking hope and unlocking home for families in need.",
+      subtitle: "There are many ways to support our mission and make a difference in your community. Join us in unlocking access and restoring dignity.",
     },
     contact: {
       title: "Contact Us",

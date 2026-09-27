@@ -131,7 +131,7 @@ export default function MissionPage() {
         <div className="text-center">
           <h2 className="text-3xl font-bold text-nextkey-purple mb-6">Join Our Mission</h2>
           <p className="text-lg text-gray-700 mb-8 max-w-2xl mx-auto">
-            Together, we can unlock hope and unlock home for families in need.
+            Together, we can make housing information easier to access and navigate with dignity.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button 

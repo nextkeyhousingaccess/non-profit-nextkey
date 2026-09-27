@@ -49,10 +49,10 @@ export default function HomePage() {
             </div>
             <div className="flex justify-center">
               <Image
-                src="/images/nextkey-logo-tagline.png"
-                alt="NextKey Housing Access Foundation - Unlock Hope, Unlock Home"
+                src="/images/nextkey-logo.png"
+                alt="NextKey Housing Access Foundation logo"
                 width={500}
-                height={400}
+                height={500}
                 className="max-w-full h-auto rounded-xl shadow-md"
               />
             </div>
@@ -94,10 +94,10 @@ export default function HomePage() {
                 <Home className="h-8 w-8 text-nextkey-purple mt-1" />
                 <div>
                   <h3 className="text-xl font-semibold text-nextkey-purple mb-2">
-                    Bridges Landlord Communication
+                    Makes Housing Information Clearer
                   </h3>
                   <p className="text-gray-700">
-                    Simplifies relationships between property owners and renters through transparent engagement.
+                    Shares practical information about housing applications, assistance programs, and available resources.
                   </p>
                 </div>
               </CardContent>
@@ -117,9 +117,9 @@ export default function HomePage() {
               <CardContent className="p-6 flex items-start gap-4">
                 <GraduationCap className="h-8 w-8 text-nextkey-purple mt-1" />
                 <div>
-                  <h3 className="text-xl font-semibold text-nextkey-purple mb-2">Ready to Scale with Impact</h3>
+                  <h3 className="text-xl font-semibold text-nextkey-purple mb-2">Growing Through Education</h3>
                   <p className="text-gray-700">
-                    Backed by early traction, growing interest, and a model designed to scale across communities.
+                    We develop workshops and learning tools with community feedback as our capacity grows.
                   </p>
                 </div>
               </CardContent>
