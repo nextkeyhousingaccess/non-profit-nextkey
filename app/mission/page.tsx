@@ -11,7 +11,7 @@ export default function MissionPage() {
         <div className="text-center mb-16">
           <h1 className="text-4xl font-bold text-nextkey-purple mb-6">Our Mission</h1>
           <p className="text-xl text-gray-700 max-w-3xl mx-auto">
-            We serve voucher holders, low-income families, immigrants, LGBTQIA+ individuals, youth, and all people facing housing discrimination. Our mission is to break down barriers to housing access and build stronger communities.
+            Our housing education and resources are open to everyone. We focus outreach on voucher holders, families with limited incomes, immigrants, LGBTQIA+ people, young people, and anyone facing barriers to housing. Our mission is to make housing information easier to understand and use.
           </p>
         </div>
 
@@ -28,7 +28,7 @@ export default function MissionPage() {
               </CardHeader>
               <CardContent>
                 <p className="text-gray-700">
-                  Supporting families navigating the housing voucher system and connecting them with landlord partners.
+                  Sharing education and resources to help families understand the housing voucher process.
                 </p>
               </CardContent>
             </Card>
@@ -70,7 +70,7 @@ export default function MissionPage() {
               </CardHeader>
               <CardContent>
                 <p className="text-gray-700">
-                  Creating safe and inclusive housing opportunities for LGBTQIA+ community members.
+                  Sharing housing information and resources in a welcoming environment.
                 </p>
               </CardContent>
             </Card>

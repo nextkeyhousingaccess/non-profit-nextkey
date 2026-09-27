@@ -31,8 +31,8 @@ export default function ContactPage() {
                   <Mail className="h-6 w-6 text-nextkey-purple mt-1" />
                   <div>
                     <h3 className="font-semibold text-gray-900">Email</h3>
-                    <p className="text-gray-600">{footer.contact.email}</p>
-                    <p className="text-sm text-gray-500 mt-1">We typically respond within 24 hours</p>
+                    <a className="text-gray-600 underline" href={`mailto:${footer.contact.email}`}>{footer.contact.email}</a>
+                    <p className="text-sm text-gray-500 mt-1">For Foundation education, workshops, volunteering, and donations.</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
@@ -139,17 +139,11 @@ export default function ContactPage() {
           </Card>
         </div>
 
-        {/* Emergency Contact */}
-        <div className="mt-16 bg-red-50 border border-red-200 rounded-lg p-6 text-center">
-          <h2 className="text-2xl font-bold text-red-800 mb-4">{siteContent.pages.contact.emergency.title}</h2>
-          <p className="text-red-700 mb-4">
-            {siteContent.pages.contact.emergency.subtitle}
-          </p>
-          <Button className="bg-red-600 hover:bg-red-700 text-white rounded-xl" size="lg">
-            {siteContent.cta.emergencyContact}
-          </Button>
+        <div className="mt-12 text-sm text-gray-600">
+          <p>For organizational consulting inquiries, contact the separate business NextKey Global Solutions LLC at <a className="text-nextkey-purple underline" href="mailto:partnership@nextkeyglobal.com">partnership@nextkeyglobal.com</a>.</p>
+          <p className="mt-2">The Foundation provides housing education and resources; it does not offer real estate brokerage services.</p>
         </div>
       </div>
     </div>
   );
-} 
+}

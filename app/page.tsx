@@ -81,7 +81,7 @@ export default function HomePage() {
                 <Users className="h-8 w-8 text-nextkey-purple mt-1" />
                 <div>
                   <h3 className="text-xl font-semibold text-nextkey-purple mb-2">
-                    Empowers Underserved Renters
+                    Helps Renters Understand Their Options
                   </h3>
                   <p className="text-gray-700">
                     Helps renters navigate complex housing systems with clarity, dignity, and support.
@@ -106,9 +106,9 @@ export default function HomePage() {
               <CardContent className="p-6 flex items-start gap-4">
                 <Heart className="h-8 w-8 text-nextkey-purple mt-1" />
                 <div>
-                  <h3 className="text-xl font-semibold text-nextkey-purple mb-2">Equity-First Design</h3>
+                  <h3 className="text-xl font-semibold text-nextkey-purple mb-2">Built with Community Input</h3>
                   <p className="text-gray-700">
-                    Built with direct community feedback and equity embedded in every layer of the experience.
+                    We listen to community feedback as we improve our education and resources.
                   </p>
                 </div>
               </CardContent>

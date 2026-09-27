@@ -19,7 +19,7 @@ export const nav = {
 export const hero = {
   title: "Unlock Hope. Unlock Home.",
   description:
-    "NextKey Housing Access Foundation is a Black-founded, equity-driven nonprofit dedicated to breaking down barriers to housing access. We serve voucher holders, low-income families, immigrants, LGBTQIA+ individuals, youth, and all people facing housing discrimination.\n\nWe are incorporated in New York and currently in pending status for federal 501(c)(3) approval. While awaiting approval, our focus is on building community, sharing resources, and preparing for long-term impact.",
+    "NextKey Housing Access Foundation is a Black-founded nonprofit helping New Yorkers understand and navigate housing systems. We offer housing education, community workshops, and resources for people facing barriers to housing. Everyone is welcome. We are a tax-exempt 501(c)(3) public charity.",
   ctas: [
     { label: "Join Our Newsletter", href: "/get-involved#newsletter" },
     { label: "Donate Now", href: "/donate" }
@@ -39,8 +39,8 @@ export const howItWorks = {
       text: "Offering resources and information to immigrant communities, youth, and LGBTQIA+ individuals so no one is left behind."
     },
     {
-      title: "Scaling with Equity",
-      text: "Designing future programs with direct community feedback, ensuring equity and dignity are embedded in every step."
+      title: "Growing with Community Input",
+      text: "Designing future programs with feedback from the people who use them."
     }
   ]
 };
@@ -50,30 +50,34 @@ export const currentFocus = {
     "Voucher holders and families: sharing resources and advocacy tools.",
     "Immigrant and LGBTQIA+ communities: promoting inclusion and fighting discrimination.",
     "Youth and young adults: building housing literacy and leadership opportunities.",
-    "Donors and early supporters: helping us lay the groundwork while 501(c)(3) approval is pending."
+    "Donors and early supporters: helping us expand housing education and community outreach."
   ]
 };
 
 export const faq = [
   {
     q: "Who do you serve?",
-    a: "We serve voucher holders, low-income families, immigrants, LGBTQIA+ individuals, youth, and others facing barriers to housing."
+    a: "Our education and resources are open to everyone. We focus outreach on voucher holders, families with limited incomes, immigrants, LGBTQIA+ people, young people, and others facing barriers to housing."
   },
   {
     q: "Do you have programs right now?",
-    a: "We are in our startup phase. Our immediate focus is on education, advocacy, and community-building while preparing to launch future programs."
+    a: "We offer housing education, resources, and community workshops as capacity allows. Contact us for current opportunities."
   },
   {
     q: "Are donations tax-deductible?",
-    a: "We are in pending status for 501(c)(3) approval. Donations made now support our mission but may not be tax-deductible until IRS approval is confirmed."
+    a: "Yes. The Foundation has received its IRS 501(c)(3) determination. Please keep your donation receipt and consult your tax adviser about your specific deduction."
+  },
+  {
+    q: "Can the Foundation help me rent an apartment?",
+    a: "The Foundation provides housing education and resources. We do not act as a real estate broker or promise an apartment."
   }
 ];
 
 export const footer = {
   legal:
-    "NextKey Housing Access Foundation Inc. is a nonprofit incorporated in New York in 2025. We are currently in pending status for federal 501(c)(3) tax-exempt approval. Donations are being accepted to support our mission but may not be tax-deductible until IRS approval is confirmed. EIN and incorporation documents available upon request.",
+    "NextKey Housing Access Foundation Inc. is a New York nonprofit recognized by the IRS as a 501(c)(3) tax-exempt organization. EIN: 33-4852690.",
   contact: {
-    email: "nextkeyfoundation@gmail.com",
+    email: "info@nextkeyhousingacess.org",
     city: "New York, NY",
     social: {
       facebook: "Next Key Housing Access Foundation",
@@ -81,13 +85,13 @@ export const footer = {
       x: "@nextkeyhousing"
     }
   },
-  copyright: "© 2025 NextKey Housing Access Foundation. All rights reserved."
+  copyright: "© 2026 NextKey Housing Access Foundation. All rights reserved."
 };
 
 export const programsPage = {
   heading: "Our Mission in Action",
   intro:
-    "We are just getting started, and while we don't yet run full programs, our focus is clear: supporting voucher holders, low-income families, immigrants, LGBTQIA+ individuals, and youth in building access to affordable housing.\n\nWe believe in starting small, listening to the community, and growing responsibly so we never overpromise and always deliver with dignity.",
+    "Our work focuses on housing education, resources, and community workshops for voucher holders, families, youth, and others navigating the housing process. We develop programs with community feedback and expand as capacity allows.",
   priorities: [
     {
       title: "Housing Navigation & Education",
@@ -237,4 +241,3 @@ export type PriorityItem = {
   bullets: string[];
   text?: string;
 };
-
