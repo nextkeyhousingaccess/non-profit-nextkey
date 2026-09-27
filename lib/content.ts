@@ -16,6 +16,8 @@ export const siteContent = {
     social: {
       facebook: "NextKey Housing Access Foundation",
       facebookUrl: "https://www.facebook.com/p/NextKey-Housing-Access-Foundation-61575967289929/",
+      instagram: "@nextkeyhousing",
+      instagramUrl: "https://www.instagram.com/nextkeyhousing/",
     },
     officeHours: {
       weekdays: "9:00 AM - 5:00 PM",
