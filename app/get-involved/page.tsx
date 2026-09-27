@@ -1,6 +1,5 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { Heart, Users, ShoppingBag, DollarSign } from "lucide-react";
@@ -146,29 +145,20 @@ export default function GetInvolvedPage() {
         <div id="newsletter" className="mt-16 bg-nextkey-purple text-white rounded-lg p-8 text-center">
           <h2 className="text-3xl font-bold mb-4">Join Our Newsletter</h2>
           <p className="text-lg mb-6">
-            Stay updated on our latest programs, events, and community impact. Get housing resources and opportunities delivered to your inbox.
+            Get Foundation workshop updates, housing education, and community resources by email.
           </p>
           <div className="max-w-md mx-auto">
-            <form className="flex flex-col sm:flex-row gap-4">
-              <Input 
-                type="email" 
-                placeholder="Enter your email address" 
-                className="flex-1 bg-white text-gray-900 placeholder-gray-500"
-                required
-              />
-              <Button 
-                type="submit" 
-                className="bg-nextkey-gold text-nextkey-purple hover:bg-yellow-500 rounded-xl px-8"
-              >
-                Subscribe
-              </Button>
-            </form>
+            <Button asChild className="bg-nextkey-gold text-nextkey-purple hover:bg-yellow-500 rounded-xl px-8">
+              <a href="mailto:info@nextkeyhousingacess.org?subject=Join%20the%20Foundation%20newsletter&body=Please%20add%20me%20to%20the%20NextKey%20Housing%20Access%20Foundation%20newsletter.%20I%20would%20like%20to%20receive%20Foundation%20updates%20by%20email.">
+                Email Us to Join
+              </a>
+            </Button>
             <p className="text-sm text-purple-200 mt-4">
-              We respect your privacy. Unsubscribe at any time.
+              This opens your email app. Send the message to request a subscription. You can unsubscribe by replying to any newsletter or emailing us.
             </p>
           </div>
         </div>
       </div>
     </div>
   );
-} 
+}
