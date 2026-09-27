@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@/components/ui/collapsible";
-import { ExternalLink, Home, Shield, Users, Calendar, Instagram, ChevronDown, FileText, Heart, Building, HelpCircle } from "lucide-react";
+import { ExternalLink, Home, Shield, Users, Instagram, ChevronDown, FileText, Heart, Building, HelpCircle } from "lucide-react";
 
 export default function ResourcesPage() {
   return (
@@ -588,42 +588,6 @@ export default function ResourcesPage() {
                   </Button>
                 </div>
               </div>
-            </CardContent>
-          </Card>
-        </div>
-
-        {/* Workshop Placeholder */}
-        <div className="mb-16">
-          <Card className="bg-white border-2 border-nextkey-purple">
-            <CardContent className="p-8 text-center">
-              <Calendar className="h-16 w-16 text-nextkey-purple mx-auto mb-6" />
-              <h2 className="text-3xl font-bold text-black mb-4">
-                Housing Connect 101 Workshop
-              </h2>
-              <p className="text-xl text-nextkey-purple mb-2 font-semibold">
-                November 7
-              </p>
-              <p className="text-sm text-gray-600 mb-6 italic">
-                In collaboration with A Bridge to Breakthrough Project
-              </p>
-              <p className="text-lg text-gray-700 mb-8">
-                Join us for an informative workshop on navigating Housing Connect applications and understanding your housing options.
-              </p>
-              <Button
-                asChild
-                size="lg"
-                className="bg-nextkey-purple text-white hover:bg-purple-800 rounded-lg font-semibold"
-              >
-                <a
-                  href="https://www.instagram.com/abbridgetobreakthroughproject"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center gap-2"
-                >
-                  <Instagram className="h-5 w-5" />
-                  RSVP on Instagram
-                </a>
-              </Button>
             </CardContent>
           </Card>
         </div>
