@@ -27,7 +27,7 @@ export const siteContent = {
 
   // External Links
   links: {
-    gofundme: "https://www.gofundme.com/f/led-by-us-built-for-all-a-new-vision-for-housing-access",
+    donationInquiry: "mailto:info@nextkeyhousingacess.org?subject=Foundation%20donation%20inquiry&body=Hello%2C%20I%20would%20like%20to%20support%20the%20NextKey%20Housing%20Access%20Foundation.%20Please%20send%20me%20the%20current%20donation%20options.",
     bonfire: "https://www.bonfire.com/unlock-hope160unlock-housing/",
     volunteerForm: "https://docs.google.com/forms/d/e/1FAIpQLSeWITqTPOOPxSnCwWc9bwzWbTPLffX9stoWuu2ZiEkvznHD3g/viewform?usp=header",
     partnerForm: "https://docs.google.com/forms/d/e/1FAIpQLSdGfG2EhOFw9TFEz2mWq5J_GkW0u9YqkAnhIvqdB3ZdwEHbAA/viewform?usp=header",
@@ -160,7 +160,7 @@ export const siteContent = {
 
   // CTA Button Text
   cta: {
-    donate: "Donate Now",
+    donate: "Support the Foundation",
     volunteer: "Volunteer Today",
     getInvolved: "Get Involved",
     learnMore: "Learn More",
@@ -170,7 +170,7 @@ export const siteContent = {
     fillPartnerForm: "Fill Partner Interest Form",
     learnAboutSponsorship: "Learn About Sponsorship",
     shopMerch: "Shop Bonfire Merch",
-    supportEmergencyFund: "Support our Emergency Housing Fund",
+    supportEmergencyFund: "Ask About Supporting Our Work",
     sendMessage: "Send Message",
     emergencyContact: "Emergency Contact",
     rsvpGetTickets: "RSVP / Get Tickets",

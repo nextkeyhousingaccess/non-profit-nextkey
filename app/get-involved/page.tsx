@@ -130,9 +130,7 @@ export default function GetInvolvedPage() {
             <CardContent>
               <Button className="w-full bg-green-600 hover:bg-green-700 text-white rounded-xl" asChild>
                 <a
-                  href={siteContent.links.gofundme}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href={siteContent.links.donationInquiry}
                 >
                   {siteContent.cta.supportEmergencyFund}
                 </a>

@@ -115,7 +115,7 @@ export default function AboutPage() {
               className="border-nextkey-purple text-nextkey-purple hover:bg-nextkey-purple hover:text-white rounded-xl"
               asChild
             >
-              <a href="/donate">Donate Now</a>
+              <a href="/donate">Support the Foundation</a>
             </Button>
           </div>
         </div>

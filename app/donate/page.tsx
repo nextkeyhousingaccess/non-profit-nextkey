@@ -36,15 +36,13 @@ export default function DonatePage() {
                 asChild
               >
                 <a
-                  href={siteContent.links.gofundme}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href={siteContent.links.donationInquiry}
                 >
-                  Donate Now
+                  Ask About Donating
                 </a>
               </Button>
               <p className="text-sm text-white mt-4">
-                Secure donation through GoFundMe
+                Email the Foundation for current donation options. No payment is collected on this page.
               </p>
             </CardContent>
           </Card>

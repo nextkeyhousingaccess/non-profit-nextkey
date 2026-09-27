@@ -223,9 +223,7 @@ export default function HomePage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href={siteContent.links.gofundme}
-              target="_blank"
-              rel="noopener noreferrer"
+              href="/donate"
             >
               <Button size="lg" className="bg-nextkey-gold text-nextkey-purple hover:bg-yellow-500 rounded-xl font-semibold">
                 {siteContent.cta.donate}
