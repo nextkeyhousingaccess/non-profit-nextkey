@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
-import { Mail, MapPin, Facebook } from "lucide-react";
+import { Mail, MapPin, Facebook, Instagram } from "lucide-react";
 import { siteContent } from "@/lib/content";
 import { footer } from "@/app/content/site";
 
@@ -38,9 +38,15 @@ export default function ContactPage() {
                 <div className="flex items-start space-x-4">
                   <Facebook className="h-6 w-6 text-nextkey-purple mt-1" />
                   <div>
-                    <h3 className="font-semibold text-gray-900">Social Media</h3>
+                    <h3 className="font-semibold text-gray-900">Facebook</h3>
                     <a className="text-gray-600 underline" href={siteContent.contact.social.facebookUrl} target="_blank" rel="noopener noreferrer">{siteContent.contact.social.facebook}</a>
-                    <p className="text-sm text-gray-500 mt-1">Follow us for updates and community stories</p>
+                  </div>
+                </div>
+                <div className="flex items-start space-x-4">
+                  <Instagram className="h-6 w-6 text-nextkey-purple mt-1" />
+                  <div>
+                    <h3 className="font-semibold text-gray-900">Instagram</h3>
+                    <a className="text-gray-600 underline" href={siteContent.contact.social.instagramUrl} target="_blank" rel="noopener noreferrer">{siteContent.contact.social.instagram}</a>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
