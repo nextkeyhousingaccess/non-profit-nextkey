@@ -14,8 +14,8 @@ export const siteContent = {
   contact: {
     email: "info@nextkeyhousingacess.org",
     social: {
-      instagram: "@nextkeyhousing",
-      instagramUrl: "https://instagram.com/nextkeyhousing",
+      facebook: "NextKey Housing Access Foundation",
+      facebookUrl: "https://www.facebook.com/p/NextKey-Housing-Access-Foundation-61575967289929/",
     },
     officeHours: {
       weekdays: "9:00 AM - 5:00 PM",
@@ -175,7 +175,7 @@ export const siteContent = {
     emergencyContact: "Emergency Contact",
     rsvpGetTickets: "RSVP / Get Tickets",
     joinMailingList: "Join Our Mailing List",
-    followSocial: "Follow @nextkeyhousing",
+    followSocial: "Follow Us on Facebook",
   },
 
   // Page-specific content

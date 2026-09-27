@@ -80,9 +80,8 @@ export const footer = {
     email: "info@nextkeyhousingacess.org",
     city: "New York, NY",
     social: {
-      facebook: "Next Key Housing Access Foundation",
-      instagram: "@nextkeyhousing",
-      x: "@nextkeyhousing"
+      facebook: "NextKey Housing Access Foundation",
+      facebookUrl: "https://www.facebook.com/p/NextKey-Housing-Access-Foundation-61575967289929/"
     }
   },
   copyright: "© 2026 NextKey Housing Access Foundation. All rights reserved."
@@ -180,7 +179,7 @@ export const eventsPage = {
   ],
   stayConnectedCtas: [
     { label: "Join Our Mailing List", href: "/get-involved#newsletter" },
-    { label: "Follow @nextkeyhousing", href: "https://instagram.com/nextkeyhousing" }
+    { label: "Follow Us on Facebook", href: "https://www.facebook.com/p/NextKey-Housing-Access-Foundation-61575967289929/" }
   ]
 };
 
