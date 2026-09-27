@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Mail, MapPin, Facebook } from "lucide-react"
+import { Mail, MapPin, Facebook, Instagram } from "lucide-react"
 import { footer } from "@/app/content/site"
 
 export function Footer() {
@@ -23,6 +23,10 @@ export function Footer() {
                 <p className="flex items-center">
                   <Facebook className="h-4 w-4 mr-2" />
                   <a href={footer.contact.social.facebookUrl} target="_blank" rel="noopener noreferrer" className="hover:text-nextkey-gold underline">{footer.contact.social.facebook}</a>
+                </p>
+                <p className="flex items-center">
+                  <Instagram className="h-4 w-4 mr-2" />
+                  <a href={footer.contact.social.instagramUrl} target="_blank" rel="noopener noreferrer" className="hover:text-nextkey-gold underline">{footer.contact.social.instagram}</a>
                 </p>
               </div>
             </div>
