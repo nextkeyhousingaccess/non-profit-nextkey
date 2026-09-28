@@ -5,6 +5,11 @@ import { programsPage } from "@/app/content/site"
 
 export default function ProgramsPage() {
   const priorityIcons = [BookOpen, Users, TrendingUp]
+  const serviceLinks = [
+    { href: "https://www.youtube.com/watch?v=dt-yueN2-_k", label: "Watch the Introductory Video", external: true },
+    { href: "https://housing-education-hub.vercel.app/", label: "Open NextKey Academy", external: true },
+    { href: "/contact", label: "Ask About a Workshop", external: false },
+  ]
 
   return (
     <div className="min-h-screen py-12">
@@ -43,11 +48,23 @@ export default function ProgramsPage() {
                       </li>
                     ))}
                   </ul>
+                  <Button asChild className="mt-6 w-full whitespace-normal h-auto py-3 bg-nextkey-purple hover:bg-purple-800 text-white">
+                    <a href={serviceLinks[index].href} target={serviceLinks[index].external ? "_blank" : undefined} rel={serviceLinks[index].external ? "noopener noreferrer" : undefined}>
+                      {serviceLinks[index].label}
+                    </a>
+                  </Button>
                 </CardContent>
               </Card>
             )
           })}
         </div>
+
+        <section aria-labelledby="resource-guidance" className="mb-16 bg-gray-50 rounded-lg p-6 sm:p-8">
+          <h2 id="resource-guidance" className="text-2xl font-bold text-nextkey-purple mb-4">Housing Resources & Practical Preparation</h2>
+          <p className="text-lg text-gray-700 mb-4">Explore information about voucher programs, tenant rights and housing processes. Use these resources to organize your questions and prepare for conversations with housing agencies and service providers.</p>
+          <a href="/resources" className="font-semibold text-nextkey-purple underline">Browse Housing Resources</a>
+          <p className="text-sm text-gray-600 mt-6">Our focus is education and access to information. Individual housing placement, legal representation and rental assistance payments are not offered through these learning resources.</p>
+        </section>
 
         {/* Call to Action */}
         <div className="bg-nextkey-purple text-white rounded-lg p-8 text-center">
