@@ -3,6 +3,7 @@ export const nav = {
     { label: "Home", href: "/" },
     { label: "About Us", href: "/about" },
     { label: "Our Mission", href: "/mission" }, // or "Who We Serve"
+    { label: "Programs & Services", href: "/programs" },
     { label: "Resources", href: "/resources" },
     { label: "Get Involved", href: "/get-involved" }, // newsletter, volunteer, partner
     { label: "Surveys", href: "/surveys" },
@@ -90,34 +91,35 @@ export const footer = {
 };
 
 export const programsPage = {
-  heading: "Our Mission in Action",
+  heading: "Housing Education & Community Services",
   intro:
-    "Our work focuses on housing education, resources, and community workshops for voucher holders, families, youth, and others navigating the housing process. We develop programs with community feedback and expand as capacity allows.",
+    "NextKey helps individuals and families build the knowledge to navigate housing with greater confidence. Start with our educational videos, explore self-paced lessons in NextKey Academy, or contact us about a workshop for your school or community organization.",
   priorities: [
     {
-      title: "Housing Navigation & Education",
+      title: "Housing Education Videos",
+      text: "Watch introductory lessons from NextKey Housing Access on YouTube.",
       bullets: [
-        "Housing literacy education",
-        "Resource guides and referrals",
-        "Advocacy for voucher holders"
+        "Start with Understanding Housing Vouchers 101: How Voucher Portions Work",
+        "Learn at your own pace and revisit the information",
+        "Use the videos alongside our housing resources and Academy lessons"
       ]
     },
     {
-      title: "Community Partnerships",
+      title: "NextKey Academy / Education Hub",
+      text: "Explore our developing collection of self-paced housing lessons and practical learning materials.",
       bullets: [
-        "Landlord engagement & awareness",
-        "School and youth outreach",
-        "Coalition building with nonprofits"
+        "Housing rights and rental-assistance education",
+        "Real-life scenarios and supporting-document preparation materials",
+        "Resources to help learners prepare questions and understand housing processes"
       ]
     },
     {
-      title: "Future Focus Areas (as we grow)",
-      text:
-        "We plan to expand into structured programs once funding and capacity allow, including:",
+      title: "School & Community Workshops",
+      text: "Contact us to discuss a housing education workshop or pilot. Availability and scope are confirmed with each partner.",
       bullets: [
-        "Direct support for families navigating housing applications and transitions",
-        "Youth leadership and financial literacy initiatives",
-        "Community outreach in schools, shelters, and immigrant centers"
+        "Housing literacy for youth, families and community members",
+        "Voucher basics, housing rights and practical preparation",
+        "Partnership inquiries from schools, shelters and community organizations"
       ]
     }
   ]
