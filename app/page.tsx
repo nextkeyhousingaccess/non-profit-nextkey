@@ -219,14 +219,14 @@ export default function HomePage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <Card>
             <CardContent className="p-6 sm:p-10">
-              <p className="text-sm font-semibold text-nextkey-purple mb-3">NextKey Housing Education on YouTube</p>
+              <p className="text-sm font-semibold text-nextkey-purple mb-3">Free Housing Education on YouTube</p>
               <h2 id="housing-video-heading" className="text-2xl sm:text-3xl font-bold text-nextkey-purple mb-4">
                 Understanding Housing Vouchers 101
               </h2>
               <p className="text-lg text-gray-700 mb-6">
-                Watch “How Voucher Portions Work” from NextKey Housing Access, then explore more lessons in NextKey Academy.
+                Start with our free video “How Voucher Portions Work.” Continue learning in NextKey Academy, then bring your questions to a school or community workshop.
               </p>
-              <div className="flex flex-col sm:flex-row gap-4">
+              <div className="flex flex-col sm:flex-row sm:flex-wrap gap-4">
                 <Button asChild className="bg-nextkey-purple hover:bg-purple-800 text-white rounded-lg">
                   <a href="https://www.youtube.com/watch?v=dt-yueN2-_k" target="_blank" rel="noopener noreferrer">
                     Watch the Video on YouTube
@@ -236,6 +236,9 @@ export default function HomePage() {
                   <a href="https://www.youtube.com/@NextKeyhousing" target="_blank" rel="noopener noreferrer">
                     Visit Our YouTube Channel
                   </a>
+                </Button>
+                <Button asChild variant="outline" className="text-nextkey-purple border-nextkey-purple rounded-lg">
+                  <a href="/contact">Ask About a Workshop</a>
                 </Button>
               </div>
             </CardContent>
