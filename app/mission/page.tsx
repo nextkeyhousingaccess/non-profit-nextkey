@@ -11,7 +11,10 @@ export default function MissionPage() {
         <div className="text-center mb-16">
           <h1 className="text-4xl font-bold text-nextkey-purple mb-6">Our Mission</h1>
           <p className="text-xl text-gray-700 max-w-3xl mx-auto">
-            Our housing education and resources are open to everyone. We focus outreach on voucher holders, families with limited incomes, immigrants, LGBTQIA+ people, young people, and anyone facing barriers to housing. Our mission is to make housing information easier to understand and use.
+            The mission is to help individuals and families access safe, stable, and affordable housing through placement services, digital tools, and housing advocacy.
+          </p>
+          <p className="text-lg text-gray-700 max-w-3xl mx-auto mt-6">
+            Our current work advances this mission through housing education, community workshops, digital learning, and practical resources. Our education and resources are open to everyone, with focused outreach to people facing barriers to housing. The Foundation does not provide real estate brokerage services or guarantee housing placements.
           </p>
         </div>
 
