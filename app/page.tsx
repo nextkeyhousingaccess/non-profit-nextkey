@@ -136,7 +136,7 @@ export default function HomePage() {
               Housing Resources & Support
             </h2>
             <p className="text-lg text-gray-700 max-w-3xl mx-auto">
-              Access comprehensive resources, learn about voucher programs, and understand your tenant rights.
+              Watch our videos, explore self-paced lessons, and find housing resources for your next steps.
             </p>
           </div>
           
@@ -178,7 +178,7 @@ export default function HomePage() {
                   NextKey Academy
                 </h3>
                 <p className="text-gray-700 mb-4">
-                  Build housing knowledge through guided lessons, real-life scenarios, resources, assessments, and track completion.
+                  Explore self-paced housing lessons, real-life scenarios, and practical preparation resources.
                 </p>
                 <Button asChild className="w-full bg-nextkey-purple hover:bg-purple-800 text-white rounded-lg">
                   <a
@@ -209,6 +209,10 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      <div className="bg-gray-50 pb-12 text-center px-4">
+        <a href="/programs" className="font-semibold text-nextkey-purple underline">Explore Our Programs, Services & Workshop Inquiries</a>
+      </div>
 
       {/* Housing Education Video */}
       <section id="housing-education-video" aria-labelledby="housing-video-heading" className="py-16 bg-white">
