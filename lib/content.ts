@@ -12,7 +12,7 @@ export const siteContent = {
 
   // Contact Information
   contact: {
-    email: "info@nextkeyhousingacess.org",
+    email: "info@nextkeyhousingaccess.org",
     social: {
       facebook: "NextKey Housing Access Foundation",
       facebookUrl: "https://www.facebook.com/p/NextKey-Housing-Access-Foundation-61575967289929/",
@@ -29,7 +29,7 @@ export const siteContent = {
 
   // External Links
   links: {
-    donationInquiry: "mailto:info@nextkeyhousingacess.org?subject=Foundation%20donation%20inquiry&body=Hello%2C%20I%20would%20like%20to%20support%20the%20NextKey%20Housing%20Access%20Foundation.%20Please%20send%20me%20the%20current%20donation%20options.",
+    donationInquiry: "mailto:info@nextkeyhousingaccess.org?subject=Foundation%20donation%20inquiry&body=Hello%2C%20I%20would%20like%20to%20support%20the%20NextKey%20Housing%20Access%20Foundation.%20Please%20send%20me%20the%20current%20donation%20options.",
     bonfire: "https://www.bonfire.com/unlock-hope160unlock-housing/",
     volunteerForm: "https://docs.google.com/forms/d/e/1FAIpQLSeWITqTPOOPxSnCwWc9bwzWbTPLffX9stoWuu2ZiEkvznHD3g/viewform?usp=header",
     partnerForm: "https://docs.google.com/forms/d/e/1FAIpQLSdGfG2EhOFw9TFEz2mWq5J_GkW0u9YqkAnhIvqdB3ZdwEHbAA/viewform?usp=header",
