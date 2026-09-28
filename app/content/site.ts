@@ -93,15 +93,15 @@ export const footer = {
 export const programsPage = {
   heading: "Housing Education & Community Services",
   intro:
-    "NextKey helps individuals and families build the knowledge to navigate housing with greater confidence. Start with our educational videos, explore self-paced lessons in NextKey Academy, or contact us about a workshop for your school or community organization.",
+    "NextKey helps individuals and families build the knowledge to navigate housing with greater confidence. Start with our free educational videos, build your knowledge through NextKey Academy, and contact us about a workshop for your school or community organization.",
   priorities: [
     {
-      title: "Housing Education Videos",
-      text: "Watch introductory lessons from NextKey Housing Access on YouTube.",
+      title: "Free Housing Education Videos",
+      text: "Start learning at no cost with introductory videos from NextKey Housing Access on YouTube. These videos introduce topics you can explore further in our workshops.",
       bullets: [
         "Start with Understanding Housing Vouchers 101: How Voucher Portions Work",
         "Learn at your own pace and revisit the information",
-        "Use the videos alongside our housing resources and Academy lessons"
+        "Bring your questions from the videos into a school or community workshop"
       ]
     },
     {
