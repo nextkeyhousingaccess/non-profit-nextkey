@@ -77,7 +77,7 @@ export const footer = {
   legal:
     "NextKey Housing Access Foundation Inc. is a New York nonprofit recognized by the IRS as a 501(c)(3) tax-exempt organization. EIN: 33-4852690.",
   contact: {
-    email: "info@nextkeyhousingacess.org",
+    email: "info@nextkeyhousingaccess.org",
     city: "New York, NY",
     social: {
       facebook: "NextKey Housing Access Foundation",
