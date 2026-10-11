@@ -147,7 +147,7 @@ export default function GetInvolvedPage() {
           </p>
           <div className="max-w-md mx-auto">
             <Button asChild className="bg-nextkey-gold text-nextkey-purple hover:bg-yellow-500 rounded-xl px-8">
-              <a href="mailto:info@nextkeyhousingacess.org?subject=Join%20the%20Foundation%20newsletter&body=Please%20add%20me%20to%20the%20NextKey%20Housing%20Access%20Foundation%20newsletter.%20I%20would%20like%20to%20receive%20Foundation%20updates%20by%20email.">
+              <a href="mailto:info@nextkeyhousingaccess.org?subject=Join%20the%20Foundation%20newsletter&body=Please%20add%20me%20to%20the%20NextKey%20Housing%20Access%20Foundation%20newsletter.%20I%20would%20like%20to%20receive%20Foundation%20updates%20by%20email.">
                 Email Us to Join
               </a>
             </Button>
