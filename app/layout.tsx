@@ -11,7 +11,7 @@ const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: `${hero.title} | ${siteContent.organization.name}`,
-  description: "NextKey Housing Access Foundation is a Black-founded, equity-driven nonprofit dedicated to breaking down barriers to housing access. We serve voucher holders, low-income families, immigrants, LGBTQIA+ individuals, youth, and all people facing housing discrimination.",
+  description: "NextKey Housing Access Foundation helps New Yorkers understand rental assistance, housing applications, documentation, and tenant rights through housing education, practical resources, and workshops in development.",
   generator: 'v0.dev'
 }
 
@@ -30,3 +30,4 @@ export default function RootLayout({
     </html>
   )
 }
+

@@ -22,7 +22,7 @@ export function Header() {
             />
             <div className="hidden sm:block">
               <h1 className="text-xl font-bold text-nextkey-purple">NextKey</h1>
-              <p className="text-sm text-gray-600">Equity. Access. Impact.</p>
+              <p className="text-sm text-gray-600">Education. Preparation. Housing Access.</p>
             </div>
           </Link>
 
@@ -54,3 +54,4 @@ export function Header() {
     </header>
   )
 }
+

@@ -80,10 +80,10 @@ export default function GetInvolvedPage() {
             <CardHeader>
               <div className="flex items-center space-x-3 mb-4">
                 <Heart className="h-8 w-8 text-nextkey-purple" />
-                <CardTitle className="text-xl text-nextkey-purple">Sponsor-a-Client</CardTitle>
+                <CardTitle className="text-xl text-nextkey-purple">Support a Learner</CardTitle>
               </div>
               <p className="text-gray-600">
-                Make a direct impact by sponsoring a family's housing assistance or program participation.
+                Help support housing education and learning materials for individuals and families.
               </p>
             </CardHeader>
             <CardContent>
@@ -103,7 +103,7 @@ export default function GetInvolvedPage() {
               <p className="text-gray-600">
                 Support our mission while representing NextKey with our branded merchandise.
               </p>
-              <p className="text-sm text-gray-500 mt-2">All proceeds go toward direct housing support.</p>
+              <p className="text-sm text-gray-500 mt-2">Proceeds support housing education and community learning.</p>
             </CardHeader>
             <CardContent>
               <Button className="w-full bg-nextkey-purple hover:bg-purple-800 rounded-xl" asChild>
@@ -123,16 +123,16 @@ export default function GetInvolvedPage() {
             <CardHeader>
               <div className="flex items-center space-x-3 mb-4">
                 <DollarSign className="h-8 w-8 text-nextkey-purple" />
-                <CardTitle className="text-xl text-nextkey-purple">Emergency Housing Fund</CardTitle>
+                <CardTitle className="text-xl text-nextkey-purple">Support Housing Education</CardTitle>
               </div>
-              <p className="text-gray-600">Your donation directly supports families facing housing emergencies.</p>
+              <p className="text-gray-600">Your donation supports housing education, workshop materials, and community learning.</p>
             </CardHeader>
             <CardContent>
               <Button className="w-full bg-green-600 hover:bg-green-700 text-white rounded-xl" asChild>
                 <a
                   href={siteContent.links.donationInquiry}
                 >
-                  {siteContent.cta.supportEmergencyFund}
+                  {siteContent.cta.supportEducation}
                 </a>
               </Button>
             </CardContent>
@@ -160,3 +160,4 @@ export default function GetInvolvedPage() {
     </div>
   );
 }
+

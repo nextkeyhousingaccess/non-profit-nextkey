@@ -30,7 +30,7 @@ export default function AboutPage() {
                 {siteContent.organization.mission}
               </p>
               <p className="text-gray-600">
-                We are dedicated to breaking down barriers to housing access and ensuring every family has the resources and dignity they need to find and maintain stable housing.
+                We help individuals and families understand housing programs, prepare documents, and ask informed questions about their next steps.
               </p>
             </CardContent>
           </Card>
@@ -44,7 +44,7 @@ export default function AboutPage() {
             </CardHeader>
             <CardContent>
               <p className="text-gray-700">
-                A world where housing access is equitable, where every family has a safe and stable place to call home, and where communities are strengthened through mutual support and understanding.
+                A future where individuals and families have clear housing information, understand their options, and can prepare for safe and stable housing.
               </p>
             </CardContent>
           </Card>
@@ -89,7 +89,7 @@ export default function AboutPage() {
             </CardHeader>
             <CardContent>
               <p className="text-gray-700">
-                Black-founded nonprofit incorporated in New York, 2025
+                Nonprofit incorporated in New York, 2025
               </p>
             </CardContent>
           </Card>
@@ -123,3 +123,4 @@ export default function AboutPage() {
     </div>
   );
 }
+

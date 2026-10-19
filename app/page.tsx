@@ -178,7 +178,7 @@ export default function HomePage() {
                   NextKey Academy
                 </h3>
                 <p className="text-gray-700 mb-4">
-                  Explore self-paced housing lessons, real-life scenarios, and practical preparation resources.
+                  Explore our developing housing lessons, real-life scenarios, and practical resources. Digital workshop tools are in development and testing.
                 </p>
                 <Button asChild className="w-full bg-nextkey-purple hover:bg-purple-800 text-white rounded-lg">
                   <a
@@ -288,3 +288,4 @@ export default function HomePage() {
     </div>
   );
 }
+

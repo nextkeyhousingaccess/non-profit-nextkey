@@ -20,7 +20,7 @@ export const nav = {
 export const hero = {
   title: "Unlocking Access. Restoring Dignity.",
   description:
-    "NextKey Housing Access Foundation is a Black-founded nonprofit helping New Yorkers understand and navigate housing systems. We offer housing education, community workshops, and resources for people facing barriers to housing. Everyone is welcome. We are a tax-exempt 501(c)(3) public charity.",
+    "NextKey Housing Access Foundation helps New Yorkers understand rental assistance and navigate the housing process. Through housing education and practical tools, we explain programs such as CityFHEPS and FHEPS, application requirements, documentation, and the steps involved in securing housing. Our work helps individuals and families ask informed questions, prepare for next steps, and communicate more effectively with housing professionals. We are developing and testing digital workshops to support this work. Our education and resources are open to everyone. We are a tax-exempt 501(c)(3) public charity.",
   ctas: [
     { label: "Join Our Newsletter", href: "/get-involved#newsletter" },
     { label: "Support the Foundation", href: "/donate" }
@@ -29,40 +29,40 @@ export const hero = {
 
 export const howItWorks = {
   intro:
-    "We're in our startup phase and building step by step, with an emphasis on the communities most impacted by housing inequities.",
+    "Housing processes can involve unfamiliar requirements, several organizations, and important documents. We make the information easier to understand so people can prepare, follow up, and know what to ask next.",
   steps: [
     {
-      title: "Community First",
-      text: "Supporting voucher holders, low-income renters, and families navigating complex housing systems."
+      title: "Understand Your Options",
+      text: "Learn how rental-assistance programs work, what questions to ask, and where to find current information."
     },
     {
-      title: "Education & Advocacy",
-      text: "Offering resources and information to immigrant communities, youth, and LGBTQIA+ individuals so no one is left behind."
+      title: "Prepare for Next Steps",
+      text: "Use educational resources to understand application stages, organize documents, and identify information that needs to be confirmed."
     },
     {
-      title: "Growing with Community Input",
-      text: "Designing future programs with feedback from the people who use them."
+      title: "Communicate and Follow Up",
+      text: "Build confidence asking questions, keeping track of requests, and following up with housing professionals."
     }
   ]
 };
 
 export const currentFocus = {
   bullets: [
-    "Voucher holders and families: sharing resources and advocacy tools.",
-    "Immigrant and LGBTQIA+ communities: promoting inclusion and fighting discrimination.",
-    "Youth and young adults: building housing literacy and leadership opportunities.",
-    "Donors and early supporters: helping us expand housing education and community outreach."
+    "Rental-assistance education: explaining housing programs and the questions that matter when exploring housing options.",
+    "Document readiness: helping learners understand common document requests and prepare questions about application requirements.",
+    "Youth and family education: building practical housing knowledge through school and community partnerships.",
+    "Digital learning: developing and testing workshop materials and tools that support housing education."
   ]
 };
 
 export const faq = [
   {
     q: "Who do you serve?",
-    a: "Our education and resources are open to everyone. We focus outreach on voucher holders, families with limited incomes, immigrants, LGBTQIA+ people, young people, and others facing barriers to housing."
+    a: "Our education and resources are open to everyone, including voucher holders, people with limited incomes, families, and young people preparing to navigate housing. Requirements for rental-assistance programs are set by the agencies that administer them."
   },
   {
     q: "Do you have programs right now?",
-    a: "We offer housing education, resources, and community workshops as capacity allows. Contact us for current opportunities."
+    a: "We offer housing education, practical resources, and community workshops as capacity allows. NextKey Academy provides a developing collection of self-paced learning materials. We are also developing and testing digital workshop tools. Contact us to confirm current workshop availability."
   },
   {
     q: "Are donations tax-deductible?",
@@ -93,7 +93,7 @@ export const footer = {
 export const programsPage = {
   heading: "Housing Education & Community Services",
   intro:
-    "NextKey helps individuals and families build the knowledge to navigate housing with greater confidence. Start with our free educational videos, build your knowledge through NextKey Academy, and contact us about a workshop for your school or community organization.",
+    "Start with free housing-education videos, explore the developing lessons in NextKey Academy, or contact us about a school or community workshop. Our materials explain housing processes and help learners prepare questions, understand document requests, and identify next steps. Workshop availability and scope are confirmed with each partner.",
   priorities: [
     {
       title: "Free Housing Education Videos",
@@ -106,7 +106,7 @@ export const programsPage = {
     },
     {
       title: "NextKey Academy / Education Hub",
-      text: "Explore our developing collection of self-paced housing lessons and practical learning materials.",
+      text: "Explore our developing collection of self-paced housing lessons and practical learning materials. Digital workshop tools are in development and testing.",
       bullets: [
         "Housing rights and rental-assistance education",
         "Real-life scenarios and supporting-document preparation materials",
@@ -189,14 +189,14 @@ export const eventsPage = {
 
 export const workshop = {
   route: "/workshop/housing-literacy",
-  title: "Complete Housing Literacy in One Day",
+  title: "Housing Literacy Workshop in Development",
   intro:
-    "Our full-day virtual Housing Literacy Workshop is designed for renters, voucher holders, landlords, youth, and community members. The goal is simple: give everyone a shared foundation of knowledge to reduce discrimination, strengthen relationships, and build long-term housing stability.",
+    "We are developing and testing a digital Housing Literacy Workshop for renters, voucher holders, landlords, young people, and community members. The planned lessons explain housing programs, tenant rights and responsibilities, document preparation, and communication. Contact us about current community workshops and pilot opportunities.",
   howItWorks: [
-    "Sign Up Once – Register with your email to get instant access.",
-    "Full Workshop Access – Receive all 10 sections at once, organized into clear lessons and exercises.",
-    "Self-Paced Completion – Designed to be finished in one day, but you can move through at your own pace.",
-    "Certificates & Rewards – Complete all sections to earn a digital certificate of completion. Gift certificates available for eligible participants."
+    "Ask About Availability – Contact us to learn about current workshops and pilot opportunities.",
+    "Planned Curriculum – We are developing 10 sections with lessons and practical exercises.",
+    "Digital Learning – Self-paced materials and tools are being developed and tested.",
+    "Participant Feedback – Pilot feedback will help us improve the materials before wider availability."
   ],
   sections: [
     "Introduction to Housing Access",
@@ -210,9 +210,9 @@ export const workshop = {
     "Youth & Community Housing Literacy",
     "Pathways to Long-Term Stability"
   ],
-  cta: { label: "Register for the Workshop", href: "/register/housing-literacy" },
+  cta: { label: "Ask About a Workshop", href: "/contact" },
   implementationNotes:
-    "Implementation options: 1) PDF workbook package auto-emailed on signup; 2) Email delivery of all 10 modules; 3) Private webpage after signup with all modules."
+    "Digital workshop materials are in development and testing. Contact the Foundation to confirm current availability, format, and participation details."
 };
 
 // Type definitions for better TypeScript support
@@ -244,3 +244,4 @@ export type PriorityItem = {
   bullets: string[];
   text?: string;
 };
+

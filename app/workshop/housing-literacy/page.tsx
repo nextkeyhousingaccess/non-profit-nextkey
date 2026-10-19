@@ -17,7 +17,7 @@ export default function HousingLiteracyWorkshopPage() {
 
         {/* How It Works Section */}
         <section className="mb-16">
-          <h2 className="text-3xl font-bold text-nextkey-purple text-center mb-8">How It Works</h2>
+          <h2 className="text-3xl font-bold text-nextkey-purple text-center mb-8">How We Are Developing It</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {workshop.howItWorks.map((step, index) => (
               <Card key={index} className="text-center">
@@ -44,15 +44,15 @@ export default function HousingLiteracyWorkshopPage() {
 
         {/* Workshop Sections */}
         <section className="mb-16">
-          <h2 className="text-3xl font-bold text-nextkey-purple text-center mb-8">Workshop Sections</h2>
+          <h2 className="text-3xl font-bold text-nextkey-purple text-center mb-8">Planned Workshop Sections</h2>
           <div className="max-w-4xl mx-auto">
             <Card>
               <CardHeader>
                 <CardTitle className="text-xl text-nextkey-purple text-center">
-                  Complete Housing Literacy Curriculum
+                  Housing Literacy Curriculum in Development
                 </CardTitle>
                 <p className="text-gray-600 text-center">
-                  All 10 comprehensive sections designed to build housing knowledge and stability
+                  Ten planned sections to help learners understand housing processes and prepare for next steps
                 </p>
               </CardHeader>
               <CardContent>
@@ -79,9 +79,9 @@ export default function HousingLiteracyWorkshopPage() {
         <div className="text-center mb-16">
           <Card className="max-w-2xl mx-auto bg-gradient-to-r from-nextkey-purple to-purple-800 text-white">
             <CardHeader>
-              <CardTitle className="text-2xl mb-4">Ready to Get Started?</CardTitle>
+              <CardTitle className="text-2xl mb-4">Interested in a Workshop?</CardTitle>
               <p className="text-purple-100">
-                Join our comprehensive Housing Literacy Workshop and gain the knowledge you need for housing stability.
+                Contact us about current community workshops, partnership inquiries, and digital workshop pilot opportunities.
               </p>
             </CardHeader>
             <CardContent>
@@ -100,7 +100,7 @@ export default function HousingLiteracyWorkshopPage() {
 
         {/* Implementation Options */}
         <div className="bg-gray-50 rounded-lg p-8 text-center">
-          <h2 className="text-2xl font-bold text-nextkey-purple mb-4">Implementation Options</h2>
+          <h2 className="text-2xl font-bold text-nextkey-purple mb-4">Development Status</h2>
           <p className="text-gray-700 max-w-3xl mx-auto">
             {workshop.implementationNotes}
           </p>
@@ -109,3 +109,4 @@ export default function HousingLiteracyWorkshopPage() {
     </div>
   );
 }
+

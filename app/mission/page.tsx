@@ -14,7 +14,7 @@ export default function MissionPage() {
             The mission is to help individuals and families access safe, stable, and affordable housing through placement services, digital tools, and housing advocacy.
           </p>
           <p className="text-lg text-gray-700 max-w-3xl mx-auto mt-6">
-            Our current work advances this mission through housing education, community workshops, digital learning, and practical resources. Our education and resources are open to everyone, with focused outreach to people facing barriers to housing. The Foundation does not provide real estate brokerage services or guarantee housing placements.
+            We advance this mission through housing education, community workshops, digital learning, and practical resources. We focus on understanding rental assistance, preparing for application steps, organizing information, and communicating with housing professionals. Digital workshop tools are in development and testing. Our education and resources are open to everyone. The Foundation does not provide real estate brokerage services or guarantee housing placements.
           </p>
         </div>
 
@@ -31,7 +31,7 @@ export default function MissionPage() {
               </CardHeader>
               <CardContent>
                 <p className="text-gray-700">
-                  Sharing education and resources to help families understand the housing voucher process.
+                  Education about rental-assistance programs, housing processes, and questions to confirm with the agencies administering benefits.
                 </p>
               </CardContent>
             </Card>
@@ -41,11 +41,11 @@ export default function MissionPage() {
                 <div className="flex justify-center mb-4">
                   <Users className="h-12 w-12 text-nextkey-purple" />
                 </div>
-                <CardTitle className="text-xl text-nextkey-purple">Low-Income Families</CardTitle>
+                <CardTitle className="text-xl text-nextkey-purple">Individuals and Families</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-gray-700">
-                  Providing resources and support for families facing housing instability and financial challenges.
+                  Practical housing information for people preparing applications or navigating housing changes.
                 </p>
               </CardContent>
             </Card>
@@ -55,11 +55,11 @@ export default function MissionPage() {
                 <div className="flex justify-center mb-4">
                   <Heart className="h-12 w-12 text-nextkey-purple" />
                 </div>
-                <CardTitle className="text-xl text-nextkey-purple">Immigrant Communities</CardTitle>
+                <CardTitle className="text-xl text-nextkey-purple">Document Preparation</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-gray-700">
-                  Offering culturally sensitive support and resources for immigrant families navigating housing systems.
+                  Learning resources that explain common document requests and help people prepare informed questions.
                 </p>
               </CardContent>
             </Card>
@@ -69,11 +69,11 @@ export default function MissionPage() {
                 <div className="flex justify-center mb-4">
                   <Shield className="h-12 w-12 text-nextkey-purple" />
                 </div>
-                <CardTitle className="text-xl text-nextkey-purple">LGBTQIA+ Individuals</CardTitle>
+                <CardTitle className="text-xl text-nextkey-purple">Community Learning</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-gray-700">
-                  Sharing housing information and resources in a welcoming environment.
+                  Housing education for community members and organizations seeking clear, practical information.
                 </p>
               </CardContent>
             </Card>
@@ -87,7 +87,7 @@ export default function MissionPage() {
               </CardHeader>
               <CardContent>
                 <p className="text-gray-700">
-                  Empowering young people with housing literacy and leadership skills for their future.
+                  Housing literacy that helps young people prepare for future housing decisions.
                 </p>
               </CardContent>
             </Card>
@@ -97,11 +97,11 @@ export default function MissionPage() {
                 <div className="flex justify-center mb-4">
                   <Heart className="h-12 w-12 text-nextkey-purple" />
                 </div>
-                <CardTitle className="text-xl text-nextkey-purple">All Facing Discrimination</CardTitle>
+                <CardTitle className="text-xl text-nextkey-purple">Fair Housing Information</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-gray-700">
-                  Standing with anyone experiencing housing discrimination and fighting for fair access.
+                  Information about housing rights and resources for people experiencing housing discrimination.
                 </p>
               </CardContent>
             </Card>
@@ -158,3 +158,4 @@ export default function MissionPage() {
     </div>
   );
 }
+

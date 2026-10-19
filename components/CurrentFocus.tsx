@@ -11,7 +11,7 @@ export function CurrentFocus() {
             Our Current Focus
           </h2>
           <p className="text-lg text-gray-700 max-w-3xl mx-auto">
-            We're building step by step, with an emphasis on the communities most impacted by housing inequities.
+            We focus on the knowledge and preparation people need to participate more confidently in the housing process.
           </p>
         </div>
         
@@ -37,4 +37,5 @@ export function CurrentFocus() {
     </section>
   );
 }
+
 

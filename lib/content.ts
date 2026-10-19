@@ -3,8 +3,8 @@ export const siteContent = {
   organization: {
     name: "NextKey Housing Access Foundation",
     tagline: "Unlocking Access. Restoring Dignity.",
-    mission: "Equity. Access. Impact.",
-    description: "NextKey Housing Access Foundation is a Black-founded nonprofit dedicated to breaking down barriers to housing access. We combine community support, technology, and advocacy to ensure every family has the resources and dignity they need to find and maintain stable housing.",
+    mission: "Education. Preparation. Housing Access.",
+    description: "NextKey Housing Access Foundation helps New Yorkers understand rental assistance and navigate the housing process. Through housing education and practical tools, we explain programs such as CityFHEPS and FHEPS, application requirements, documentation, and the steps involved in securing housing. Our work helps individuals and families ask informed questions, prepare for next steps, and communicate more effectively with housing professionals. We are developing and testing digital workshops to support this work.",
     ein: "33-4852690",
     location: "New York, NY",
     serviceArea: "Queens, NY and surrounding areas",
@@ -47,7 +47,7 @@ export const siteContent = {
   faq: [
     {
       question: "What is NextKey Housing Access Foundation?",
-      answer: "We are a community-rooted nonprofit focused on expanding housing access for underserved residents—especially voucher holders. We offer outreach, support services, events, and emergency aid.",
+      answer: "We help New Yorkers understand rental assistance and housing processes through education and practical resources. We are developing and testing digital workshops and welcome school and community partnership inquiries.",
     },
     {
       question: "Do you provide housing placements?",
@@ -66,18 +66,18 @@ export const siteContent = {
   // Programs
   programs: [
     {
-      title: "Emergency Housing Aid",
-      description: "Immediate financial assistance for families facing eviction, utility shutoffs, or other housing emergencies.",
+      title: "Housing Education",
+      description: "Practical information to help individuals and families understand rental assistance and prepare for housing applications.",
       features: [
-        "Rental assistance and security deposits",
-        "Utility payment support",
-        "Emergency hotel vouchers",
-        "Case management services",
+        "Rental-assistance program education",
+        "Application and documentation guidance",
+        "Housing resource information",
+        "Questions to prepare for housing agencies",
       ],
     },
     {
       title: "NextKey Rising (Youth Program)",
-      description: "Empowering young people with life skills, education support, and pathways to homeownership.",
+      description: "Housing literacy and practical learning materials for young people preparing for future housing decisions.",
       features: [
         "Financial literacy workshops",
         "College and career readiness",
@@ -87,12 +87,12 @@ export const siteContent = {
     },
     {
       title: "Landlord Retention",
-      description: "Working with property owners to maintain stable housing for tenants through mediation and support.",
+      description: "Educational resources about tenant-landlord communication, responsibilities, and housing stability.",
       features: [
-        "Tenant-landlord mediation",
-        "Rental payment plans",
-        "Property maintenance assistance",
-        "Legal advocacy support",
+        "Tenant-landlord communication education",
+        "Understanding rent responsibilities",
+        "Understanding maintenance responsibilities",
+        "Fair housing information",
       ],
     },
     {
@@ -172,7 +172,7 @@ export const siteContent = {
     fillPartnerForm: "Fill Partner Interest Form",
     learnAboutSponsorship: "Learn About Sponsorship",
     shopMerch: "Shop Bonfire Merch",
-    supportEmergencyFund: "Ask About Supporting Our Work",
+    supportEducation: "Ask About Supporting Our Work",
     sendMessage: "Send Message",
     emergencyContact: "Emergency Contact",
     rsvpGetTickets: "RSVP / Get Tickets",
@@ -185,7 +185,7 @@ export const siteContent = {
     home: {
       hero: {
         title: "Unlocking Access. Restoring Dignity.",
-        subtitle: "NextKey Housing Access Foundation is a Black-founded nonprofit dedicated to breaking down barriers to housing access. We combine community support, technology, and advocacy to ensure every family has the resources and dignity they need to find and maintain stable housing.",
+        subtitle: "NextKey Housing Access Foundation helps New Yorkers understand rental assistance and navigate the housing process. Through housing education and practical tools, we explain programs such as CityFHEPS and FHEPS, application requirements, documentation, and the steps involved in securing housing. Our work helps individuals and families ask informed questions, prepare for next steps, and communicate more effectively with housing professionals. We are developing and testing digital workshops to support this work.",
       },
       impact: {
         title: "Housing Knowledge, Shared with Dignity",
@@ -198,7 +198,7 @@ export const siteContent = {
     },
     programs: {
       title: "Our Programs",
-      subtitle: "We offer comprehensive programs designed to address the root causes of housing instability and empower individuals and families to achieve long-term success.",
+      subtitle: "Explore housing education, practical resources, and workshops in development to help individuals and families understand their options.",
       cta: {
         title: "Need Help or Want to Support Our Programs?",
         subtitle: "Whether you need assistance or want to help others, we're here to connect you with the right resources.",
@@ -213,7 +213,7 @@ export const siteContent = {
       subtitle: "We're here to help. Whether you need assistance, want to get involved, or have questions about our programs, don't hesitate to reach out.",
       emergency: {
         title: "Emergency Housing Assistance",
-        subtitle: "If you're facing immediate eviction or homelessness, please contact us right away.",
+        subtitle: "For immediate housing emergencies in NYC, call 311 to find the appropriate city service.",
       },
     },
     events: {
@@ -240,3 +240,4 @@ export type FAQItem = typeof siteContent.faq[0];
 export type Program = typeof siteContent.programs[0];
 export type Event = typeof siteContent.events.upcoming[0];
 export type PastEvent = typeof siteContent.events.past[0];
+

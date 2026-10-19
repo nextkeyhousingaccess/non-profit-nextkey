@@ -11,8 +11,8 @@ export default function DonatePage() {
         <div className="text-center mb-16">
           <h1 className="text-4xl font-bold text-nextkey-purple mb-6">Support Our Mission</h1>
           <p className="text-xl text-gray-700 max-w-3xl mx-auto">
-            Your donation helps us break down barriers to housing access and build stronger communities. 
-            Every contribution makes a difference in the lives of families facing housing challenges.
+            Your donation supports housing education, workshop materials, and community learning.
+            Help us make practical housing information easier for individuals and families to understand and use.
           </p>
         </div>
 
@@ -23,10 +23,10 @@ export default function DonatePage() {
               <div className="flex justify-center mb-4">
                 <Heart className="h-16 w-16 text-nextkey-gold" />
               </div>
-              <CardTitle className="text-3xl mb-4 text-white">Emergency Housing Fund</CardTitle>
+              <CardTitle className="text-3xl mb-4 text-white">Support Housing Education</CardTitle>
               <p className="text-lg text-white">
-                Your donation directly supports families facing housing emergencies, provides housing literacy education, 
-                and helps us build the infrastructure needed to serve our community.
+                Your donation supports housing education, practical learning materials, and the development and testing
+                of digital workshops for renters, families, and community partners.
               </p>
             </CardHeader>
             <CardContent className="text-center">
@@ -55,12 +55,12 @@ export default function DonatePage() {
               <div className="flex justify-center mb-4">
                 <Users className="h-12 w-12 text-nextkey-purple" />
               </div>
-              <CardTitle className="text-xl text-nextkey-purple">Direct Support</CardTitle>
+              <CardTitle className="text-xl text-nextkey-purple">Housing Education</CardTitle>
             </CardHeader>
             <CardContent>
               <p className="text-gray-700">
-                Your donation helps us provide direct assistance to families facing housing emergencies, 
-                including emergency rent assistance and housing navigation support.
+                Your donation supports lessons and resources that explain rental assistance programs,
+                application requirements, documentation, and housing processes.
               </p>
             </CardContent>
           </Card>
@@ -70,12 +70,12 @@ export default function DonatePage() {
               <div className="flex justify-center mb-4">
                 <Shield className="h-12 w-12 text-nextkey-purple" />
               </div>
-              <CardTitle className="text-xl text-nextkey-purple">Education & Advocacy</CardTitle>
+              <CardTitle className="text-xl text-nextkey-purple">Workshop Materials</CardTitle>
             </CardHeader>
             <CardContent>
               <p className="text-gray-700">
-                Support our housing literacy programs, tenant rights education, and advocacy efforts 
-                to create systemic change in housing access.
+                Help us develop and test digital workshops, practical exercises, and learning materials
+                about tenant rights, housing applications, and preparing for next steps.
               </p>
             </CardContent>
           </Card>
@@ -85,12 +85,12 @@ export default function DonatePage() {
               <div className="flex justify-center mb-4">
                 <DollarSign className="h-12 w-12 text-nextkey-purple" />
               </div>
-              <CardTitle className="text-xl text-nextkey-purple">Community Building</CardTitle>
+              <CardTitle className="text-xl text-nextkey-purple">Community Learning</CardTitle>
             </CardHeader>
             <CardContent>
               <p className="text-gray-700">
-                Help us build the infrastructure and partnerships needed to create lasting change 
-                in housing access and community support systems.
+                Support outreach and school and community partnerships that bring housing education
+                to more learners. Workshop availability and scope are confirmed with each partner.
               </p>
             </CardContent>
           </Card>
@@ -141,3 +141,4 @@ export default function DonatePage() {
     </div>
   );
 }
+
