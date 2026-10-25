@@ -44,7 +44,7 @@ export default function AboutPage() {
             </CardHeader>
             <CardContent>
               <p className="text-gray-700">
-                A future where individuals and families have clear housing information, understand their options, and can prepare for safe and stable housing.
+                {siteContent.organization.vision}
               </p>
             </CardContent>
           </Card>

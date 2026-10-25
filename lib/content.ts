@@ -3,7 +3,8 @@ export const siteContent = {
   organization: {
     name: "NextKey Housing Access Foundation",
     tagline: "Unlocking Access. Restoring Dignity.",
-    mission: "Education. Preparation. Housing Access.",
+    mission: "We connect underserved individuals and families to affordable housing through digital tools, education, and application support to reduce homelessness and restore dignity.",
+    vision: "A future where every individual and family can access a safe, stable, and affordable home with dignity.",
     description: "NextKey Housing Access Foundation helps New Yorkers understand rental assistance and navigate the housing process. Through housing education and practical tools, we explain programs such as CityFHEPS and FHEPS, application requirements, documentation, and the steps involved in securing housing. Our work helps individuals and families ask informed questions, prepare for next steps, and communicate more effectively with housing professionals. We are developing and testing digital workshops to support this work.",
     ein: "33-4852690",
     location: "New York, NY",

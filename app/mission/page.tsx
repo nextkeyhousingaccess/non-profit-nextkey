@@ -1,6 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Users, Heart, Shield, Home } from "lucide-react";
+import { siteContent } from "@/lib/content";
 import { currentFocus } from "@/app/content/site";
 
 export default function MissionPage() {
@@ -11,12 +12,19 @@ export default function MissionPage() {
         <div className="text-center mb-16">
           <h1 className="text-4xl font-bold text-nextkey-purple mb-6">Our Mission</h1>
           <p className="text-xl text-gray-700 max-w-3xl mx-auto">
-            The mission is to help individuals and families access safe, stable, and affordable housing through placement services, digital tools, and housing advocacy.
+            {siteContent.organization.mission}
           </p>
           <p className="text-lg text-gray-700 max-w-3xl mx-auto mt-6">
             We advance this mission through housing education, community workshops, digital learning, and practical resources. We focus on understanding rental assistance, preparing for application steps, organizing information, and communicating with housing professionals. Digital workshop tools are in development and testing. Our education and resources are open to everyone. The Foundation does not provide real estate brokerage services or guarantee housing placements.
           </p>
         </div>
+
+        <section className="text-center mb-16">
+          <h2 className="text-3xl font-bold text-nextkey-purple mb-6">Our Vision</h2>
+          <p className="text-xl text-gray-700 max-w-3xl mx-auto">
+            {siteContent.organization.vision}
+          </p>
+        </section>
 
         {/* Who We Serve */}
         <section className="mb-16">

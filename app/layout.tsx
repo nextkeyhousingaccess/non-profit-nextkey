@@ -11,7 +11,7 @@ const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: `${hero.title} | ${siteContent.organization.name}`,
-  description: "NextKey Housing Access Foundation helps New Yorkers understand rental assistance, housing applications, documentation, and tenant rights through housing education, practical resources, and workshops in development.",
+  description: siteContent.organization.mission,
   generator: 'v0.dev'
 }
 

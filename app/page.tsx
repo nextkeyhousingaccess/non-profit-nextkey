@@ -60,6 +60,19 @@ export default function HomePage() {
         </div>
       </section>
 
+      <section className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-12">
+          <div>
+            <h2 className="text-3xl font-bold text-nextkey-purple mb-6">Our Mission</h2>
+            <p className="text-xl text-gray-700">{siteContent.organization.mission}</p>
+          </div>
+          <div>
+            <h2 className="text-3xl font-bold text-nextkey-purple mb-6">Our Vision</h2>
+            <p className="text-xl text-gray-700">{siteContent.organization.vision}</p>
+          </div>
+        </div>
+      </section>
+
       {/* How It Works Section */}
       <HowItWorks />
 
