@@ -10,6 +10,7 @@ import { hero } from "@/app/content/site";
 import { HowItWorks } from "@/components/HowItWorks";
 import { CurrentFocus } from "@/components/CurrentFocus";
 import { FAQ } from "@/components/FAQ";
+import { WorkshopAnnouncement } from "@/components/WorkshopAnnouncement";
 
 
 export default function HomePage() {
@@ -59,6 +60,8 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      <WorkshopAnnouncement />
 
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-12">

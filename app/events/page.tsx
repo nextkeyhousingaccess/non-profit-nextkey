@@ -2,8 +2,10 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Calendar, Clock } from "lucide-react"
 import { eventsPage } from "@/app/content/site"
+import { WorkshopAnnouncement } from "@/components/WorkshopAnnouncement"
 
 export default function EventsPage() {
+  const upcomingEvents = eventsPage.upcoming.filter((event) => new Date(event.date).getTime() >= Date.now())
   return (
     <div className="min-h-screen py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -15,11 +17,16 @@ export default function EventsPage() {
           </p>
         </div>
 
-        {/* Upcoming Events */}
+        <div className="mb-16 overflow-hidden rounded-2xl">
+          <WorkshopAnnouncement />
+        </div>
+
+        {/* Only future listings belong in Upcoming Events. Historical source records are preserved. */}
+        {upcomingEvents.length > 0 && (
         <section className="mb-16">
-          <h2 className="text-3xl font-bold text-nextkey-purple mb-8">Upcoming Events</h2>
+          <h2 className="text-3xl font-bold text-nextkey-purple mb-8">More Upcoming Events</h2>
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-            {eventsPage.upcoming.map((event, index) => (
+            {upcomingEvents.map((event, index) => (
               <Card key={index} className="flex flex-col h-full">
                 <CardHeader>
                   <CardTitle className="text-xl text-nextkey-purple mb-4">{event.title}</CardTitle>
@@ -53,6 +60,7 @@ export default function EventsPage() {
             ))}
           </div>
         </section>
+        )}
 
         {/* Past Events */}
         <section className="mb-16">

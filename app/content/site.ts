@@ -128,7 +128,7 @@ export const programsPage = {
 export const eventsPage = {
   heading: "Events",
   intro:
-    "Join us as we build stronger communities together. Our events are designed to connect people with housing knowledge, resources, and opportunities. While we're still in our startup phase, we're offering light, accessible ways to get involved remotely.",
+    "Join us as we build stronger communities together. Our events connect tenants, landlords, and community members with housing knowledge, practical guidance, and resources.",
   upcoming: [
     {
       title: "NextKey Virtual Info Session",
