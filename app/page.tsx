@@ -198,7 +198,7 @@ export default function HomePage() {
                 </p>
                 <Button asChild className="w-full bg-nextkey-purple hover:bg-purple-800 text-white rounded-lg">
                   <a
-                    href="https://housing-education-hub.vercel.app/"
+                    href="https://www.nextkeyacademy.org/?view=public-pilot"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
